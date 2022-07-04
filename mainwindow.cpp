@@ -2,7 +2,7 @@
 #include "ui_mainwindow.h"
 #include<iostream>
 
-
+//今天天气不错哦！
 //#pragma comment(lib,"python36.lib")
 //#include <torch/torch.h>
 //#include <torch/script.h>
