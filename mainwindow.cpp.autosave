@@ -2,7 +2,11 @@
 #include "ui_mainwindow.h"
 #include<iostream>
 
-//今天天气不错哦！
+<<<<<<< HEAD
+//今天dgsahdas
+=======
+//今天！！
+>>>>>>> ec036202ec5b7810980667c4d8da91dad2507fc1
 //#pragma comment(lib,"python36.lib")
 //#include <torch/torch.h>
 //#include <torch/script.h>
