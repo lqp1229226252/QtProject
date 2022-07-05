@@ -2,7 +2,7 @@
 #include "ui_mainwindow.h"
 #include<iostream>
 
-//今天
+//今天dgsahdas
 //#pragma comment(lib,"python36.lib")
 //#include <torch/torch.h>
 //#include <torch/script.h>
