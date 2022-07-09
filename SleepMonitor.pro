@@ -2,7 +2,7 @@ QT       += core gui
 QT       +=serialport
 QT       +=charts
 
-DESTDIR =D:\Qt\project\lqp\release
+DESTDIR =D:\Qt\project\SleepMonitor\release
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets printsupport
 
 CONFIG += c++11
@@ -19,6 +19,11 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    CommSetWidget.cpp \
+    ContralDataWidget.cpp \
+    ControlWnd.cpp \
+    SleepInterventionWidget.cpp \
+    linkport.cpp \
     main.cpp \
     mainwindow.cpp \
     plot_eeg.cpp \
@@ -27,14 +32,19 @@ SOURCES += \
     thread_receive.cpp
 
 HEADERS += \
+    ContralDataWidget.h \
+    linkport.h \
     mainwindow.h \
     qcustomplot.h \
     savefilepath.h \
+    sleepinterventionwidget.h \
     thread_receive.h
 
 FORMS += \
+    linkport.ui \
     mainwindow.ui \
-    savefilepath.ui
+    savefilepath.ui \
+    sleepinterventionwidget.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -48,6 +58,8 @@ win32-msvc* {
 
 
 DISTFILES += \
+    ../../pic_label/blue_light.png \
+    ../../pic_label/red_light.png \
     release/aa.py \
     temp.py
 
@@ -77,3 +89,6 @@ else:unix: LIBS += -L$$PWD/../../libtorch/lib/ -ltorch
 
 INCLUDEPATH += $$PWD/../../libtorch/include
 DEPENDPATH += $$PWD/../../libtorch/include
+
+RESOURCES += \
+    pic.qrc

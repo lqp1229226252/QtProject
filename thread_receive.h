@@ -1,4 +1,4 @@
-#ifndef THREAD_RECEIVE_H
+﻿#ifndef THREAD_RECEIVE_H
 #define THREAD_RECEIVE_H
 
 #include <QThread>

@@ -1,8 +1,8 @@
-#include "mainwindow.h"
+﻿#include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include<iostream>
 
-//今天天气不错哦！
+
 //#pragma comment(lib,"python36.lib")
 //#include <torch/torch.h>
 //#include <torch/script.h>
@@ -16,15 +16,23 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-
+    //控制窗口初始化
+    ControlWnd_init();
     connect(ui->pushButton_text,&QPushButton::clicked,[=](){
+        qDebug()<<"span"<<typeid(QDateTime::fromMSecsSinceEpoch(QDateTime::currentDateTime().toMSecsSinceEpoch() - start_time.toMSecsSinceEpoch()).toUTC().toString("hh:mm:ss")).name();
 
+//        Sleep(1);
+//        end_time = QDateTime::currentDateTime();
+
+//        qDebug()<<start_time - end_time;
+//        ui->label_showTime->setText(dateTime_showTime.toString("yyyy-MM-dd hh:mm:ss ddd").toUtf8());
+//    wiget_chart_eeg_init(ui->widget_chart);//表格初始化
 
 //        Thread_plot_raw_EEG *thread_plot_eeg=new Thread_plot_raw_EEG(ui->graphicsView_raw_eeg,parent);
 //        thread_plot_eeg->start(); //未用到
 
 //        SaveFilePath *saveFilePath=new SaveFilePath;
-//        saveFilePath->show(); //窗口显示
+        saveFilePath->show(); //窗口显示
 
 //        /* 调用python代码 */
 //        Py_SetPythonHome(L"D:\\software\\Anaconda3");
@@ -82,106 +90,10 @@ MainWindow::MainWindow(QWidget *parent)
         refresh_showTime();
     });//已用
     tiemr_showTiem->start(1000);
-    connect(ui->pushButton_select,&QPushButton::clicked,[=](){
-        select_port();
-    });//已用
-    connect(ui->pushButton_open,&QPushButton::clicked,[=](){
-        port_open();
-        portIsOpen=1;
-        port_state_label();
-    });//已用
-    connect(ui->pushButton_close,&QPushButton::clicked,[=](){
-        port_close();
-        portIsOpen=0;
-        port_state_label();
-    });//已用
-    connect(ui->checkBox_isSave,&QCheckBox::stateChanged,[=](){
-        isSaveData();
-    });//已用
-
-
 
 }
 
-void MainWindow::select_port(){
-    ui->comboBox_portName->clear();
-    foreach(const QSerialPortInfo &info,QSerialPortInfo::availablePorts())
-    {
-        ui->comboBox_portName->addItem(info.portName());
-    }
-}
 
-void MainWindow::port_init(){
-    port_1.setPortName(ui->comboBox_portName->currentText());
-    port_1.setBaudRate(ui->comboBox_baud->currentText().toInt());
-    port_1.setParity(QSerialPort::NoParity);
-    port_1.setStopBits(QSerialPort::OneStop);
-    port_1.setDataBits(QSerialPort::Data8);
-}
-
-void MainWindow::port_open(){
-
-    if(!port_1.isOpen()){
-        port_init();
-        port_1.open(QIODevice::ReadWrite);
-        Sleep(100);
-        thread_receive->start();
-//        if(port_1.isOpen()){
-//            connect(&port_1,&QSerialPort::readyRead,[=](){
-//                MainWindow::port_receive();
-//            });
-//            qDebug()<<"MainWindow::port_open：串口已经打开";
-//        }
-    }
-
-    else{
-        qDebug()<<"串口已经打开, 请勿重复打开串口";
-    }
-
-}
-
-//是否保存数据
-void MainWindow::isSaveData(){
-    save_num = (int)ui->checkBox_isSave->isChecked();
-    qDebug()<<"save_num:"<<save_num;
-    if(port_1.isOpen()){
-            thread_receive->save_num=ui->checkBox_isSave->isChecked();
-    }
-    else{
-        qDebug()<<"请先接收数据"<<endl;
-    }
-}
-
-void MainWindow::port_receive(){
-    QByteArray array=port_1.readAll();
-//    ui->textBrowser->insertPlainText(QString::fromLocal8Bit(array)+" ");
-//    QByteArray a("");
-//    QString b;
-//    for(int i =0;i<10;i++){
-
-//        a.append(QString::number(i));
-//        qDebug()<<"a::::"<<QString::fromLocal8Bit(a);//将二进制文件转换成本地编码（gbk2312）
-
-//    }
-}
-
-void MainWindow::port_close(){
-    if(port_1.isOpen()){
-        port_1.close();
-    }
-    else {
-        qDebug()<<"串口已经关闭";
-    }
-}
-
-void MainWindow::port_state_label(){
-    if(portIsOpen){
-        ui->label_portState->setText("port's state:OPEN");
-    }
-    else{
-        ui->label_portState->setText("port's state:CLOSE");
-    }
-}
 
 void MainWindow::refresh_showTime(){
     dateTime_showTime = QDateTime::currentDateTime();
@@ -197,6 +109,8 @@ MainWindow::~MainWindow()
 
     thread_receive->quit();
     delete ui;
+    delete w_sleepInteraction;
+    delete w_contralData;
 }
 
 

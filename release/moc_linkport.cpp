@@ -1,5 +1,5 @@
 /****************************************************************************
-** Meta object code from reading C++ file 'thread_plot_raw_eeg.h'
+** Meta object code from reading C++ file 'linkport.h'
 **
 ** Created by: The Qt Meta Object Compiler version 67 (Qt 5.14.2)
 **
@@ -7,11 +7,11 @@
 *****************************************************************************/
 
 #include <memory>
-#include "../thread_plot_raw_eeg.h"
+#include "../linkport.h"
 #include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
-#error "The header file 'thread_plot_raw_eeg.h' doesn't include <QObject>."
+#error "The header file 'linkport.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
 #error "This file was generated using the moc from 5.14.2. It"
 #error "cannot be used with the include files from this version of Qt."
@@ -21,25 +21,25 @@
 QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
-struct qt_meta_stringdata_Thread_plot_raw_EEG_t {
+struct qt_meta_stringdata_LinkPort_t {
     QByteArrayData data[1];
-    char stringdata0[20];
+    char stringdata0[9];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    qptrdiff(offsetof(qt_meta_stringdata_Thread_plot_raw_EEG_t, stringdata0) + ofs \
+    qptrdiff(offsetof(qt_meta_stringdata_LinkPort_t, stringdata0) + ofs \
         - idx * sizeof(QByteArrayData)) \
     )
-static const qt_meta_stringdata_Thread_plot_raw_EEG_t qt_meta_stringdata_Thread_plot_raw_EEG = {
+static const qt_meta_stringdata_LinkPort_t qt_meta_stringdata_LinkPort = {
     {
-QT_MOC_LITERAL(0, 0, 19) // "Thread_plot_raw_EEG"
+QT_MOC_LITERAL(0, 0, 8) // "LinkPort"
 
     },
-    "Thread_plot_raw_EEG"
+    "LinkPort"
 };
 #undef QT_MOC_LITERAL
 
-static const uint qt_meta_data_Thread_plot_raw_EEG[] = {
+static const uint qt_meta_data_LinkPort[] = {
 
  // content:
        8,       // revision
@@ -55,7 +55,7 @@ static const uint qt_meta_data_Thread_plot_raw_EEG[] = {
        0        // eod
 };
 
-void Thread_plot_raw_EEG::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+void LinkPort::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     Q_UNUSED(_o);
     Q_UNUSED(_id);
@@ -63,32 +63,32 @@ void Thread_plot_raw_EEG::qt_static_metacall(QObject *_o, QMetaObject::Call _c, 
     Q_UNUSED(_a);
 }
 
-QT_INIT_METAOBJECT const QMetaObject Thread_plot_raw_EEG::staticMetaObject = { {
-    QMetaObject::SuperData::link<QThread::staticMetaObject>(),
-    qt_meta_stringdata_Thread_plot_raw_EEG.data,
-    qt_meta_data_Thread_plot_raw_EEG,
+QT_INIT_METAOBJECT const QMetaObject LinkPort::staticMetaObject = { {
+    QMetaObject::SuperData::link<QWidget::staticMetaObject>(),
+    qt_meta_stringdata_LinkPort.data,
+    qt_meta_data_LinkPort,
     qt_static_metacall,
     nullptr,
     nullptr
 } };
 
 
-const QMetaObject *Thread_plot_raw_EEG::metaObject() const
+const QMetaObject *LinkPort::metaObject() const
 {
     return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
 }
 
-void *Thread_plot_raw_EEG::qt_metacast(const char *_clname)
+void *LinkPort::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_meta_stringdata_Thread_plot_raw_EEG.stringdata0))
+    if (!strcmp(_clname, qt_meta_stringdata_LinkPort.stringdata0))
         return static_cast<void*>(this);
-    return QThread::qt_metacast(_clname);
+    return QWidget::qt_metacast(_clname);
 }
 
-int Thread_plot_raw_EEG::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+int LinkPort::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
-    _id = QThread::qt_metacall(_c, _id, _a);
+    _id = QWidget::qt_metacall(_c, _id, _a);
     return _id;
 }
 QT_WARNING_POP
