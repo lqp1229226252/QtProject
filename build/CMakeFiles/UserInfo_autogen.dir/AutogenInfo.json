@@ -1,0 +1,161 @@
+{
+	"BUILD_DIR" : "D:/Qt/LQP/UserInfo/build/UserInfo_autogen",
+	"CMAKE_BINARY_DIR" : "D:/Qt/LQP/UserInfo/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/Qt/LQP/UserInfo/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/Qt/LQP/UserInfo",
+	"CMAKE_EXECUTABLE" : "D:/software/cMake/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"D:/Qt/LQP/UserInfo/CMakeLists.txt",
+		"D:/Qt/LQP/UserInfo/build/CMakeFiles/3.26.3/CMakeSystem.cmake",
+		"D:/software/cMake/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake",
+		"D:/Qt/LQP/UserInfo/build/CMakeFiles/3.26.3/CMakeCXXCompiler.cmake",
+		"D:/software/cMake/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake",
+		"D:/software/cMake/share/cmake-3.26/Modules/CMakeGenericSystem.cmake",
+		"D:/software/cMake/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake",
+		"D:/software/cMake/share/cmake-3.26/Modules/Platform/Windows.cmake",
+		"D:/software/cMake/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake",
+		"D:/software/cMake/share/cmake-3.26/Modules/CMakeFindCodeBlocks.cmake",
+		"D:/software/cMake/share/cmake-3.26/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake",
+		"D:/software/cMake/share/cmake-3.26/Modules/ProcessorCount.cmake",
+		"D:/software/cMake/share/cmake-3.26/Modules/CMakeCXXInformation.cmake",
+		"D:/software/cMake/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake",
+		"D:/software/cMake/share/cmake-3.26/Modules/Compiler/MSVC-CXX.cmake",
+		"D:/software/cMake/share/cmake-3.26/Modules/Compiler/MSVC.cmake",
+		"D:/software/cMake/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
+		"D:/software/cMake/share/cmake-3.26/Modules/Platform/Windows-MSVC-CXX.cmake",
+		"D:/software/cMake/share/cmake-3.26/Modules/Platform/Windows-MSVC.cmake",
+		"D:/Qt/LQP/UserInfo/build/CMakeFiles/3.26.3/CMakeRCCompiler.cmake",
+		"D:/software/cMake/share/cmake-3.26/Modules/CMakeRCInformation.cmake",
+		"D:/software/cMake/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake",
+		"D:/software/Qt/5.14.2/msvc2017/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"D:/software/Qt/5.14.2/msvc2017/lib/cmake/Qt5/Qt5Config.cmake",
+		"D:/software/Qt/5.14.2/msvc2017/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"D:/software/Qt/5.14.2/msvc2017/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"D:/software/Qt/5.14.2/msvc2017/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+		"D:/software/Qt/5.14.2/msvc2017/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
+		"D:/software/Qt/5.14.2/msvc2017/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+		"D:/software/Qt/5.14.2/msvc2017/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"D:/software/Qt/5.14.2/msvc2017/lib/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"D:/software/Qt/5.14.2/msvc2017/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake",
+		"D:/software/Qt/5.14.2/msvc2017/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake",
+		"D:/software/Qt/5.14.2/msvc2017/lib/cmake/Qt5Core/Qt5CoreMacros.cmake",
+		"D:/software/cMake/share/cmake-3.26/Modules/CMakeParseArguments.cmake",
+		"D:/software/Qt/5.14.2/msvc2017/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake",
+		"D:/software/Qt/5.14.2/msvc2017/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake",
+		"D:/software/Qt/5.14.2/msvc2017/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake",
+		"D:/software/Qt/5.14.2/msvc2017/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake",
+		"D:/software/Qt/5.14.2/msvc2017/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake",
+		"D:/software/Qt/5.14.2/msvc2017/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake",
+		"D:/software/Qt/5.14.2/msvc2017/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake",
+		"D:/software/Qt/5.14.2/msvc2017/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake",
+		"D:/software/Qt/5.14.2/msvc2017/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake",
+		"D:/software/Qt/5.14.2/msvc2017/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake",
+		"D:/software/Qt/5.14.2/msvc2017/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake",
+		"D:/software/Qt/5.14.2/msvc2017/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake",
+		"D:/software/Qt/5.14.2/msvc2017/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake",
+		"D:/software/Qt/5.14.2/msvc2017/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake",
+		"D:/software/Qt/5.14.2/msvc2017/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake",
+		"D:/software/Qt/5.14.2/msvc2017/lib/cmake/Qt5Gui/Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake",
+		"D:/software/Qt/5.14.2/msvc2017/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake",
+		"D:/software/Qt/5.14.2/msvc2017/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake",
+		"D:/software/Qt/5.14.2/msvc2017/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake",
+		"D:/software/Qt/5.14.2/msvc2017/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin.cmake",
+		"D:/software/Qt/5.14.2/msvc2017/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
+		"D:/software/Qt/5.14.2/msvc2017/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
+		"D:/software/cMake/share/cmake-3.26/Modules/CMakeParseArguments.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "D:/Qt/LQP/UserInfo",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"D:/Qt/LQP/UserInfo/src/UserInfoStruct.h",
+			"MU",
+			"UVLADIE3JM/moc_UserInfoStruct.cpp",
+			null
+		],
+		[
+			"D:/Qt/LQP/UserInfo/src/checkinfowidget.h",
+			"MU",
+			"UVLADIE3JM/moc_checkinfowidget.cpp",
+			null
+		],
+		[
+			"D:/Qt/LQP/UserInfo/src/initinfowidget.h",
+			"MU",
+			"UVLADIE3JM/moc_initinfowidget.cpp",
+			null
+		],
+		[
+			"D:/Qt/LQP/UserInfo/src/jsonoperate.h",
+			"MU",
+			"UVLADIE3JM/moc_jsonoperate.cpp",
+			null
+		],
+		[
+			"D:/Qt/LQP/UserInfo/src/renewinfowidget.h",
+			"MU",
+			"UVLADIE3JM/moc_renewinfowidget.cpp",
+			null
+		],
+		[
+			"D:/Qt/LQP/UserInfo/src/userinfowidget.h",
+			"MU",
+			"UVLADIE3JM/moc_userinfowidget.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "D:/Qt/LQP/UserInfo/build/UserInfo_autogen/include",
+	"MOC_COMPILATION_FILE" : "D:/Qt/LQP/UserInfo/build/UserInfo_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB", "WIN32" ],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"D:/Qt/LQP/UserInfo/build",
+		"D:/Qt/LQP/UserInfo",
+		"D:/Qt/LQP/UserInfo/src",
+		"D:/software/Qt/5.14.2/msvc2017/include",
+		"D:/software/Qt/5.14.2/msvc2017/include/QtWidgets",
+		"D:/software/Qt/5.14.2/msvc2017/include/QtGui",
+		"D:/software/Qt/5.14.2/msvc2017/include/QtANGLE",
+		"D:/software/Qt/5.14.2/msvc2017/include/QtCore",
+		"D:/software/Qt/5.14.2/msvc2017/mkspecs/win32-msvc"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : [],
+	"MOC_PREDEFS_FILE" : "",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 8,
+	"PARSE_CACHE_FILE" : "D:/Qt/LQP/UserInfo/build/CMakeFiles/UserInfo_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "D:/software/Qt/5.14.2/msvc2017/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "D:/software/Qt/5.14.2/msvc2017/bin/uic.exe",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 14,
+	"SETTINGS_FILE" : "D:/Qt/LQP/UserInfo/build/CMakeFiles/UserInfo_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[ "D:/Qt/LQP/UserInfo/src/checkinfowidget.cpp", "MU", null ],
+		[ "D:/Qt/LQP/UserInfo/src/initinfowidget.cpp", "MU", null ],
+		[ "D:/Qt/LQP/UserInfo/src/jsonoperate.cpp", "MU", null ],
+		[ "D:/Qt/LQP/UserInfo/src/renewinfowidget.cpp", "MU", null ],
+		[ "D:/Qt/LQP/UserInfo/src/userinfowidget.cpp", "MU", null ]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

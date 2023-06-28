@@ -1,0 +1,10 @@
+D:/Qt/LQP/UserInfo/build/CMakeFiles/UserInfo.dir
+D:/Qt/LQP/UserInfo/build/CMakeFiles/test.dir
+D:/Qt/LQP/UserInfo/build/CMakeFiles/edit_cache.dir
+D:/Qt/LQP/UserInfo/build/CMakeFiles/rebuild_cache.dir
+D:/Qt/LQP/UserInfo/build/CMakeFiles/UserInfo_autogen.dir
+D:/Qt/LQP/UserInfo/build/test/CMakeFiles/UserInfo_test.dir
+D:/Qt/LQP/UserInfo/build/test/CMakeFiles/test.dir
+D:/Qt/LQP/UserInfo/build/test/CMakeFiles/edit_cache.dir
+D:/Qt/LQP/UserInfo/build/test/CMakeFiles/rebuild_cache.dir
+D:/Qt/LQP/UserInfo/build/test/CMakeFiles/UserInfo_test_autogen.dir
